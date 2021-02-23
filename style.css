@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Stick&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Stick', sans-serif;
+  background-color: #ffcdb2;
+  color: #6d6875;
+}
+
+.container {
+  width: 1000px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem 0;
+  min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 1rem;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+h1 {
+  margin: 0;
+  font-size: 5rem;
+}
+
+h2 {
+  margin: 1rem 0;
+  font-size: 3rem;
+}
+
+li {
+  margin-bottom: 0;
+}
+
+.row {
+  text-align: center;
+}
+
+.btn {
+  font-size: 2rem;
+  background-color: #6d6875;
+  color: #ffcdb2;
+  border: 3px solid #ffcdb2;
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border-radius: 10rem;
+  transition: ease-in-out 0.25s;
+  outline: none;
+  margin-bottom: 1rem;
+}
+
+.btn:hover {
+  background-color: #ffcdb2;
+  color: #6d6875;
+  border: 3px solid #6d6875;
+}
